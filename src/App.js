@@ -49,7 +49,7 @@ function App() {
         return(
         <div>
             <h1>Witaj w systemia do zapisów na zajęcia</h1>
-            { wrongAddress ? <p className="wrongMailstatus">Niewłaściwy adres email</p> : ""}
+            { wrongAddress ? <p className="wrongMailStatus">Niewłaściwy adres email</p> : ""}
             <form onSubmit={loginButton}>
                 <label>Zaloguj się e-mailem</label>
                 <input type="text" id="email" value={email} onChange={handleChange}/>
